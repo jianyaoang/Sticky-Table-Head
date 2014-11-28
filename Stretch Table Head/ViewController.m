@@ -34,7 +34,7 @@
     self.theImageView.frame = CGRectMake(0, 0, 320, 480);
     CGRect frame = self.theImageView.frame;
     
-    //we want to make the UIImageView to go beyong the y axis. This is to help give the illusion of the image grows bigger
+    //we want to make the UIImageView to go beyond the y axis. This is to help give the illusion of the image grows bigger
     frame.origin.y = -120;
     
     //set defaultY to reference in the didScroll method
